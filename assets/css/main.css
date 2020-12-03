@@ -3327,6 +3327,7 @@ body.is-touch .poptrox-popup .closer {
 .tmo-logo-container {
   width: 60%;
   height: 60%;
+  margin-right: 5%;
 }
 
 .work-logo {
@@ -3343,6 +3344,12 @@ body.is-touch .poptrox-popup .closer {
   margin-right: 5%;
 }
 
+.queues-work-logo {
+  width: 17%;
+  height: 17%;
+  margin-right: 5%;
+}
+
 .work-summary {
   font-size: 14px;
   line-height: 23px;
@@ -3352,6 +3359,7 @@ body.is-touch .poptrox-popup .closer {
 
 .work-description-container {
   margin-left: 2px;
+  position: relative;
 }
 
 /* Contact Me Information*/
