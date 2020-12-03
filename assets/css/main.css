@@ -3345,6 +3345,7 @@ body.is-touch .poptrox-popup .closer {
 }
 
 .queues-work-logo {
+  float: left;
   width: 17%;
   height: 17%;
   margin-right: 5%;
@@ -3358,8 +3359,8 @@ body.is-touch .poptrox-popup .closer {
 }
 
 .work-description-container {
-  margin-left: 2px;
   position: relative;
+  margin-left: 2px;
 }
 
 /* Contact Me Information*/
