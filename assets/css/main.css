@@ -3351,6 +3351,13 @@ body.is-touch .poptrox-popup .closer {
   margin-right: 5%;
 }
 
+.aws-work-logo {
+  float: left;
+  width: 15%;
+  height: 15%;
+  margin-right: 5%;
+}
+
 .work-summary {
   font-size: 14px;
   line-height: 23px;

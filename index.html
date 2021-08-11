@@ -68,7 +68,7 @@
         </div>
 
         <div class="location-contact-portion">
-          <p class="contact-nums">Seattle, WA</p>
+          <p class="contact-nums">Atlanta, GA</p>
           <i
             class="fa fa-map-marker"
             style="
@@ -91,19 +91,29 @@
           <h2 style="font-weight: bold;">Welcome to my Portfolio.<br /></h2>
         </header>
         <p style="font-size: 105%;">
-          I am a CS Major at Georgia Tech, interested in Deep Learning, Robotics, and Backend Development. Here, you can
+          I am a CS Major at Georgia Tech, interested in Deep Learning, Computer Vision, and Backend Development. Here, you can
           find some of the projects that I've been working on. I love creating and building applications from start to finish.
         </p>
         <p class="personal_des">
-          Status: Amazon SDE Intern - Summer 2021 <br />
           Education: Junior CS Major @ Georgia Tech
         </p>
       </section>
 
       <!-- Two -->
       <section id="two">
-        <h2 style="font-weight: bold;">Personal Projects</h2>
+        <h2 style="font-weight: bold;">Projects and Research</h2>
         <div class="row">
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="https://github.com/borglab/gtsfm" target="_blank"
+              ><img src="./images/gtsfm.png" class="project-image-web" alt=""
+            /></a>
+            <h3 style="font-size: 120%;">GTSFM - BorgLab</h3>
+            <p style="font-size: 90%;">
+              Working on an end-to-end Sfm (Structure from Motion) pipeline which creates 3D reconstructions of scenes
+              just from camera images taken from different viewpoints. Here, I research fields like Deep Learning, Multiview Geometry,
+              and Computer Vision.
+            </p>
+          </article>
           <article class="col-6 col-12-xsmall work-item">
             <a href="https://adisingh50.github.io/nfl-predictor/" target="_blank"
               ><img src="./images/nfl_predictor_preview.png" class="project-image-web" alt=""
@@ -149,29 +159,28 @@
               the Edamam Recipe API for Developers.
             </p>
           </article>
-          <article class="col-6 col-12-xsmall work-item">
-            <a href="https://emotiblog.adisingh50.vercel.app/" target="_blank"
-              ><img
-                src="./images/emotiblog.jpg"
-                class="project-image-web"
-                alt=""
-            /></a>
-            <h3 style="font-size: 120%;">
-              EmotiBlog: Blogging Web Application
-            </h3>
-            <p style="font-size: 90%;">
-              Live feed blogging application allowing users to share their
-              feelings through emoji styled messages. Also allows users to send
-              emoji styled SMS messages to cell phones. Created through the MERN
-              stack.
-            </p>
-          </article>
         </div>
       </section>
 
       <!-- Three -->
       <section id="three">
         <h2 style="font-weight: bold; font-size: 150%;">Work Experience</h2>
+
+        <div class="work-exp-container">
+          <img class="aws-work-logo" src="./images/aws.jpg" alt="aws logo" />
+          <div class="work-description-container">
+            <p style="font-weight: bold;">
+              Software Development Engineer Intern
+            </p>
+            <p style="position: absolute; top: 0px; right: 10px;">Summer 2021</p>
+            <p class="work-summary">
+              Created a multi-threaded ticketing and notification system in NodeJS to alert internal AWS teams about 
+              their EC2 VMs with outdated software libraries which require patching. Monitored over 20,000 EC2 machines 
+              and issued production level tickets daily. Improved overall pipeline runtime by 30% by parallelizing 
+              independent operations which processed EC2 host statuses belonging to different AWS organizations.
+            </p>
+          </div>
+        </div>
 
         <div class="work-exp-container">
           <img class="queues-work-logo" src="./images/queues.png" alt="queues logo" />
